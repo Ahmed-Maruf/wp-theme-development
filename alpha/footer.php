@@ -2,7 +2,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    &copy; LWHH - All Rights Reserved
+                    <?php
+                    if (is_active_sidebar($index = 'footer-left')) {
+                        # code...
+                        dynamic_sidebar($index = 'footer-left');
+                    }
+                    ?>
                 </div>
             </div>
         </div>
