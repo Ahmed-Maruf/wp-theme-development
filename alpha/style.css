@@ -67,3 +67,18 @@ h2.post-title {
 .tags li{
     color: #3D9970;
 }
+
+.page-header{
+    background-position: center;
+    background-size: cover;
+    margin-bottom:30px;
+    padding:170px 0px;
+}
+
+.header-logo{
+    margin-top: 50px;
+}
+
+.header-logo img{
+    border-radius: 50px;
+}
